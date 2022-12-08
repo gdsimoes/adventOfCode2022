@@ -91,5 +91,4 @@ for (let i = 1; i < rowCount - 1; i++) {
     }
 }
 
-// trackRow[i].leftMax = Math.max(trackRow[i].leftMax, curr)
 console.log(visibleCount);
