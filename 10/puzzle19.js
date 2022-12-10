@@ -21,8 +21,7 @@ for (const instruction of instructions) {
     // Check if goal is met
     if (cycles >= goal) {
         strength += goal * x;
-        // console.log(goal, x, cycles * x);
-        if (goal === 220) {
+        if (goal === lastCycle) {
             break;
         } else {
             goal += incr;
